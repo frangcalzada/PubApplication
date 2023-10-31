@@ -16,3 +16,6 @@ In this project we see:
 Within the repository there is a file "PubDataBase.sql" this is a script that you can use to create the necessary database structure, along with some test data.
 
 To connect the database to the project you have to configure "PubContext" with the data from your SQL Server, you can find that in appsettings.json
+
+Inside the Controllers folder you can find an API "ApiBeer" to obtain a list of all the beers along with their brands. To test it you must run the 
+project and using Postman make a GET request to the URL: https://localhost:{port}/api/ApiBeer
