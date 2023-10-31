@@ -14,6 +14,7 @@ In this project we see:
 9. MVC Pattern
 
 Within the repository there is a file "PubDataBase.sql" this is a script that you can use to create the necessary database structure, along with some test data.
+If you use this script make sure to modify the FILENAME path for the .mdf and .ldf files
 
 To connect the database to the project you have to configure "PubContext" with the data from your SQL Server, you can find that in appsettings.json
 
