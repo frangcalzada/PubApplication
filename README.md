@@ -2,7 +2,7 @@
 
 Simple Pub Application to learn and strengthen knowledge in .NET 6
 
-In this project we see:
+## In this project, I use:
 1. C#
 2. .NET 6
 3. Entity Framework
@@ -13,6 +13,8 @@ In this project we see:
 8. Front and back validators
 9. MVC Pattern
 10. Blazor
+
+##Considerations
 
 Within the repository there is a file "PubDataBase.sql" this is a script that you can use to create the necessary database structure, along with some test data.
 If you use this script make sure to modify the FILENAME path for the .mdf and .ldf files
